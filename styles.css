@@ -1,0 +1,126 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #f2f2f2;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#btn {
+  padding: 12px 24px;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: #4caf50;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+/* Main Content Styles */
+main {
+  margin: 20px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 30px;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  p,
+  ul,
+  ol {
+    font-size: 1.6rem;
+  }
+
+  #btn {
+    padding: 10px 20px;
+    font-size: 1.4rem;
+  }
+
+  header {
+    padding: 15px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -2,7 +2,7 @@
 
 ## Deployed Version
 
-- [Link to Deployed Version on Netlify](insert_link_here)
+- [Link to Deployed Version on Netlify](https://pig-game-2024.netlify.app/)
 
 ## Introduction
 
